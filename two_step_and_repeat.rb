@@ -37,11 +37,13 @@ end
 
 def how_many_steps
   steps = 0 
-  steps = steps+=1 
-  if steps
-  puts steps.to_i 
-  
-
-
-a_few_more_steps
-  
+  loop do 
+    steps += 1 
+    if steps % 2 == 0 
+      puts "Left"
+    else 
+      puts "Right"
+    end 
+    sleep (0.5)
+  end 
+end 
