@@ -33,4 +33,6 @@ def a_few_more_steps
     sleep (1)
     break
   end
+end 
+a_few_more_steps
   
