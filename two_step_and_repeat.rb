@@ -47,3 +47,4 @@ def how_many_steps
     sleep (0.5)
   end 
 end 
+how_many_steps
